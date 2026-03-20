@@ -3,3 +3,8 @@ uvicorn
 python-multipart
 tensorflow-cpu
 Pillow
+sqlalchemy
+alembic
+passlib[bcrypt]
+python-jose[cryptography]
+pydantic[email]
