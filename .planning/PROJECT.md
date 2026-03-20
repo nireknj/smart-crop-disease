@@ -14,16 +14,13 @@ Accurately diagnose crop diseases from images and provide clear, practical treat
 
 - [x] API backend using FastAPI to serve the ML model *(Validated in Phase 1: ML Pipeline & Core API)*
 - [x] CNN-based ML model (MobileNet or similar) logic initialized for disease classification *(Validated in Phase 1)*
+- [x] Secure user authentication via JWT *(Validated in Phase 2: User Accounts & Data Persistence)*
+- [x] Database-driven backend to store user history/data *(Validated in Phase 2)*
+- [x] Image upload, result display, and simple mobile-friendly React UI *(Validated in Phase 3: Web Frontend & Integration)*
 
 ### Active
 
-- [ ] Image upload functionality for crop leaves (UI)
 - [ ] Support for Tomato and Potato crops initially
-- [ ] Display disease name and confidence score (UI)
-- [ ] Advisory system providing pesticide/organic treatment suggestions and preventive measures
-- [ ] Simple, clean, minimal, mobile-friendly UI (HTML/CSS/JS or React)
-- [ ] Secure user authentication
-- [ ] Database-driven backend to store user history/data
 - [ ] Deployable on free tiers (Render, Vercel, HuggingFace)
 
 ### Out of Scope
@@ -52,4 +49,4 @@ Accurately diagnose crop diseases from images and provide clear, practical treat
 | Use MobileNet / lightweight CNN | Better inference speed and lower memory footprint on free tiers | — Pending |
 
 ---
-*Last updated: 2026-03-20 after Phase 1 completion*
+*Last updated: 2026-03-20 after Phase 3 completion*
